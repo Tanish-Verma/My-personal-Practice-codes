@@ -1,0 +1,41 @@
+ABC Analysis
+
+What’s the ABC analysis?
+•	Based on pareto principle, used to prioritize different items or issues based on their impact on the overall outcome.
+•	ABC analysis categorises items into three groups:
+1. A-Items:
+•	High value, low quantity and Critical to business success.
+2. B-Items:
+•	Moderate value, moderate quantity and  not as important as A-items.
+3. C-Items:
+•	Low value, high quantity and Less impact on overall results.
+Why It’s Powerful
+It’s a powerful tool for managing resources effectively and achieving strategic goals with minimal effort.
+How to Use It
+•	Categorize the items.
+•	 Focus your effort on the A category.
+•	 Get better results with less effort!
+
+Example:
+
+
+THE PROBLEM:
+Imagine an automotive company struggling with high working capital
+ANALYSIS:
+Applying ABC Analysis ,we discover that the majority of the company's capital is tied up in a small number of expensive motors (A-items), rather than in the large number of cheaper screws (C-items).
+The Result?
+By focusing on optimizing the stock of these A-items we can significantly cut costs and improve efficiency.
+
+
+
+
+
+
+NEWS 1:
+CCI Approves ₹70,350-Crore Merger
+•	The Competition Commission of India (CCI) has approved the ₹70,350-crore merger of Reliance Industries and Disney's Indian media assets. 
+•	The joint venture will be primarily controlled by RIL, with ownership shared among RIL, Viacom18, and Disney.
+News 2:
+NLC India signs green power agreement with Telangana
+•	NLC India signed a deal with Telangana DISCOMs for 200MW solar power under the CPSU scheme.
+•	It aims to generate 1300 crore units of green energy and cut carbon emissions by 90 lakh tonnes.

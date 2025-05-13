@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    // First Task: Run Active C++ File for Linux (WSL)
+    {
+      "label": "Run Active C++ File (Linux/WSL)",
+      "type": "shell",
+      "command": "g++ -std=c++20 ${file} -o output && ./output",
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+
+    // Second Task: Run Active C++ File for Windows
+    {
+      "label": "Run Active C++ File (Windows)",
+      "type": "shell",
+      "command": "g++ -std=c++20 ${file} -o output.exe && ./output.exe",
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+
+    // Third Task: Compile and Run Selected C++ Files for Linux (WSL)
+    {
+      "label": "Compile and Run Selected C++ Files (Linux/WSL)",
+      "type": "shell",
+      "command": "g++ -std=c++20 ${input:files} -o output && ./output",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+
+    // Fourth Task: Compile and Run Selected C++ Files for Windows
+    {
+      "label": "Compile and Run Selected C++ Files (Windows)",
+      "type": "shell",
+      "command": "g++ -std=c++20 ${input:files} -o output.exe && ./output.exe",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": "build",
+      "problemMatcher": ["$gcc"],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "files",
+      "type": "promptString",
+      "description": "Enter C++ files to compile (e.g. main.cpp hello.cpp)"
+    }
+  ]
+}
